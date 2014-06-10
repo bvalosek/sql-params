@@ -1,0 +1,25 @@
+{
+  "name": "sql-params",
+  "version": "0.0.0",
+  "description": "Use anonymous objects instead of arrays when using parametric SQL queries.",
+  "author": {
+    "name": "Brandon Valosek",
+    "email": "bvalosek@gmail.com",
+    "url": "http://bvalosek.com"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^2.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bvalosek/sql-params.git"
+  }
+}
