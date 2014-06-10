@@ -13,7 +13,7 @@ $ npm install sql-params
 
 ## Usage
 
-```
+```javascript
 var sqlParams = require('sql-params');
 
 var sql    = 'select * from user where points > @points and id = @id';
