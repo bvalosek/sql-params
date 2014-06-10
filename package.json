@@ -1,6 +1,6 @@
 {
   "name": "sql-params",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Use anonymous objects instead of arrays when using parametric SQL queries.",
   "author": {
     "name": "Brandon Valosek",
