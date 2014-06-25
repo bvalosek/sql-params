@@ -11,7 +11,7 @@ function sqlParams(sql, params)
 {
   var args = [];
 
-  var keys = sql.match(/@\S+/g);
+  var keys = sql.match(/@\w+/g);
   var aKeys = sql.match(/\$\d+/g);
 
   if (keys && aKeys)

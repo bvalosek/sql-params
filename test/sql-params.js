@@ -34,3 +34,13 @@ test('extra ok', function(t) {
   });
 
 });
+
+test('parenths', function(t) {
+  t.plan(1);
+  var r = sqlParams('some_func(@id)', {id: 1});
+
+  t.deepEqual(r, {
+    text: 'some_func($1)',
+    values: [1]
+  });
+});
